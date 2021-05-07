@@ -1,0 +1,72 @@
+.box2{
+    background-color: hsl(217, 28%, 63%)
+}
+.box3{
+    background-color: hsl(218, 22%, 67%);
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+}
+.container{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    font-family: 'Karla', sans-serif;
+   
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 30px;
+    line-height: 30px;
+}
+.box1 h1{
+    color:hsl(217, 28%, 63%);
+}
+.box1 h3{
+    color:hsl(71, 73%, 54%);
+}
+.box1 p{
+    color: hsl(200, 5%, 62%);
+}
+.box2{
+    padding: 30px;
+    color: hsl(204, 43%, 93%);
+}
+.box2 button{
+    width: 90%;
+    height: 20%;
+    color: hsl(197, 33%, 96%);
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 7px;
+}
+.box3{
+    padding: 30px;
+    color:hsl(204, 43%, 93%);
+    line-height: 20px;
+}
+
+@media screen (max-width:400px) {
+    
+
+.container{
+    width: 400px;
+    
+    display:grid;
+    grid-template-columns:400px ;
+    
+   
+   
+}
+.box1{
+   
+    padding: 30px;
+    line-height: 30px;
+}
+
+}
